@@ -16,7 +16,7 @@ This is a Spring Boot application that implements the REST API for the Bajaj Fin
 
    ```bash
    export GEMINI_API_KEY=your_api_key_here
-   export OFFICIAL_EMAIL=your_email_here # Optional, defaults to harshit1228.be23@chitkarauniversity.edu.in
+   export OFFICIAL_EMAIL=your_email_here # Optional, defaults to harshit1230.be23@chitkarauniversity.edu.in
    ```
 
 ## Running with Maven
@@ -44,7 +44,7 @@ Returns the health status and official email.
 ```json
 {
   "is_success": true,
-  "official_email": "harshit1228.be23@chitkarauniversity.edu.in"
+  "official_email": "harshit1230.be23@chitkarauniversity.edu.in"
 }
 ```
 
@@ -62,7 +62,7 @@ Accepts JSON with one of the following keys: `fibonacci`, `prime`, `lcm`, `hcf`,
 ```json
 {
   "is_success": true,
-  "official_email": "harshit1228.be23@chitkarauniversity.edu.in",
+  "official_email": "harshit1230.be23@chitkarauniversity.edu.in",
   "data": [0, 1, 1, 2, 3, 5, 8]
 }
 ```

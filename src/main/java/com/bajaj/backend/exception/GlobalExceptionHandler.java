@@ -11,7 +11,7 @@ import org.springframework.web.servlet.NoHandlerFoundException;
 @ControllerAdvice
 public class GlobalExceptionHandler {
 
-    private static final String DEFAULT_EMAIL = "harshit1228.be23@chitkarauniversity.edu.in";
+    private static final String DEFAULT_EMAIL = "harshit1230.be23@chitkarauniversity.edu.in";
 
     private String getOfficialEmail() {
         String envEmail = System.getenv("OFFICIAL_EMAIL");

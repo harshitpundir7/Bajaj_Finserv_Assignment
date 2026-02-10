@@ -15,7 +15,7 @@ public class ApiController {
     private LogicService logicService;
 
     // Email config
-    private static final String DEFAULT_EMAIL = "harshit1228.be23@chitkarauniversity.edu.in";
+    private static final String DEFAULT_EMAIL = "harshit1230.be23@chitkarauniversity.edu.in";
 
     private String getOfficialEmail() {
         String envEmail = System.getenv("OFFICIAL_EMAIL");
